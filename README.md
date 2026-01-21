@@ -10,4 +10,4 @@ Simple and clean controller-based structure
 
 Uses a SQL database
 
-SQL script is included as Database Query.sql for database tables and sample data.
+SQL script is included as "Database_Query.sql" for database tables and sample data.
