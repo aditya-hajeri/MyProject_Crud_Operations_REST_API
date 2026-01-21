@@ -1,0 +1,92 @@
+[
+  {
+    "ContainingType": "Crud_Operations_REST_API.Controllers.ProductsController",
+    "Method": "CreateProduct",
+    "RelativePath": "Products/Create_Product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "Crud_Operations_REST_API.Models.Create_Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Crud_Operations_REST_API.Controllers.ProductsController",
+    "Method": "Delete",
+    "RelativePath": "Products/Delete_Product",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Product_Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Crud_Operations_REST_API.Controllers.ProductsController",
+    "Method": "GetProductById",
+    "RelativePath": "Products/Get_Product",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Product_Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Crud_Operations_REST_API.Controllers.ProductsController",
+    "Method": "GetAllProduct",
+    "RelativePath": "Products/GetAll_Product",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Crud_Operations_REST_API.Controllers.ProductsController",
+    "Method": "Patch",
+    "RelativePath": "Products/Patch_Product",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patchproduct",
+        "Type": "Crud_Operations_REST_API.Models.Update_PATCH_Data",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Crud_Operations_REST_API.Controllers.ProductsController",
+    "Method": "Put",
+    "RelativePath": "Products/Update_Product",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "Crud_Operations_REST_API.Models.Product",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
